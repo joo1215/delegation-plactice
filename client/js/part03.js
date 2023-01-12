@@ -23,7 +23,16 @@ const data = [
 ]
 
 
+const swiper = new Swiper('.swiper',{
+  autoplay:true,
+  loop:true,
+  speed: 2000,
+  pagination:{
+    el:'.swiper-pagination',
+    clickable:true
+  }
 
+})
 
 
 
